@@ -236,7 +236,7 @@ function _main
   then
     if [[ ${CRI} == "docker" ]]
     then
-      IMAGE_NAME=tvial/docker-mailserver:latest
+      IMAGE_NAME=andreasfaerber/tomav-docker-mailserver:latest
     elif [[ ${CRI} == "podman" ]]
     then
       IMAGE_NAME=docker.io/tvial/docker-mailserver:latest
